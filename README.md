@@ -4,8 +4,8 @@ What is docker & how to use it
 
 1. Use dockerhub and docker run to run a wordpress site
 2. Create a Dockerfile to run a python web app
-3. Create a docker-compose file to run multiple python web apps
-4. use docker exec to explore inside containers
+3. use docker exec to explore inside containers
+4. Create a docker-compose file to run multiple python web apps
 5. Look at a .NET core REST api using docker
 
 # Docker Commands
@@ -23,3 +23,7 @@ check docker is installed, and what version you are running
 `docker container ls`
 
 `docker run -p 3500:5000 dockertraining`
+
+`docker exec -it <<container name>> sh`
+
+ctrl d to exit out of a docker container
