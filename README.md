@@ -13,3 +13,13 @@ What is docker & how to use it
 check docker is installed, and what version you are running
 
 `docker version`
+
+`docker run --name wordpress -p 8080:80 -d wordpress`
+
+`docker build -t dockertraining .`
+
+`docker image ls`
+
+`docker container ls`
+
+`docker run -p 3500:5000 dockertraining`
