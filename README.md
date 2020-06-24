@@ -27,3 +27,9 @@ check docker is installed, and what version you are running
 `docker exec -it <<container name>> sh`
 
 ctrl d to exit out of a docker container
+
+`docker-compose up`
+
+`docker-compose up <<appname>>`
+
+`docker-compose stop`

@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+    hello_fleetcor:
+        image: dockertraining
+        ports:
+            - 4000:5000
+    
+    hello_fleetcor_1:
+        image: dockertraining
+        ports:
+            - 4500:5000
+
+    main_site:
+        image: wordpress
+        ports:
+            - 9000:80
